@@ -1,0 +1,240 @@
+:root {
+    width: 100vw;
+    font-size: 7px;
+    
+}
+
+
+
+
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color: #87719bb1;
+}
+
+.grid {
+    margin-top: 12rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+    width: 50rem;
+    height: 75rem;
+    
+    background-image: url(./background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+    font-size: 25rem;
+    text-align: center;
+    font-family: 'Kranky', cursive;
+    font-family: 'Fuzzy Bubbles', cursive;
+    border: .25rem solid black;
+    
+}
+
+h1 {
+    position: absolute;
+    font-family: 'Fuzzy Bubbles', cursive; 
+    transform: rotate(-10deg);
+    font-size: 4.25rem;
+    top: 18rem;
+    letter-spacing: 1.2rem;
+    color: maroon
+}
+
+.avatar-section {
+    position: absolute;
+    display: flex;
+    flex-flow: column nowrap;
+    letter-spacing: .3rem;
+    top: 25rem;
+}
+
+.avatars-container {
+    display: flex;
+    flex-flow: row nowrap;
+    padding: 2.25rem;
+
+}
+
+.select-avatar {
+    justify-content: center;
+    font-weight: 700;
+}
+
+.caption {
+    max-width: 10vh;
+}
+
+h2 {
+    padding-top: 5rem;
+    font-size: 2.25rem;
+
+}
+
+.original-doodle, .floof, .jelly {
+    width: 9rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.original-doodle {
+    width: 8rem;
+    padding-top: 3rem;
+}
+
+
+
+.original-doodle:hover, .floof:hover, .jelly:hover {
+    cursor: pointer;
+    filter: brightness(50%);
+}
+
+.original-doodle:after, .floof:after {
+    filter: brightness(50%);
+}
+
+p {
+    font-size: 1.75rem;
+}
+
+.select-avatar {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+#playbutton {
+    position: absolute;
+    background-color: rgb(166, 208, 208, 0);
+    
+    font-family: 'Fuzzy Bubbles', cursive;
+    top: 65rem;
+    padding: 1vw;
+    border: none;
+    color: black;
+    font-weight: 700;
+    font-size: 2.5rem;
+    letter-spacing: .4rem;
+    border-radius: 3rem;
+}
+
+#playbutton:hover {
+    background-color: rgb(217, 180, 112);
+}
+
+.playbutton {
+    position: absolute;
+    background-color: rgb(166, 208, 208, 0);
+    font-family: 'Fuzzy Bubbles', cursive;
+    top: 65rem;
+    max-width: 50vw;
+    padding: 1vw;
+    border: none;
+    font-weight: 700;
+    font-size: 2.5rem;
+    letter-spacing: .4rem;
+    border-radius: 6rem;
+}
+
+.doodler {
+    width: 7.5rem;
+    height: 10.62rem;
+    background-image: url(./doodler-guy.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: 5;
+}
+
+
+
+.platform {
+    width: 10.26rem;
+    height: 1.8rem;
+    
+    background-image: url(./platform.png);
+    background-size: contain;
+    position: absolute;
+    background-repeat: no-repeat;
+}
+
+.platforms {
+    display: flex;
+    
+    justify-content: center;
+}
+
+.game-over {
+    position: relative;
+    align-self: center;
+    top: 30rem;
+    font-size: 5rem;
+    margin-top: 3rem;
+    transform: rotate(-15deg);
+    color: maroon;
+    letter-spacing: .5rem;
+}
+.score {
+    letter-spacing: .5rem;
+    position: relative;
+    font-size: 3rem;
+    padding: 6rem;
+    margin-top: 10rem;
+    top: 20rem;
+}
+
+.play-again-button {
+    display: none;
+    font-family: 'Fuzzy Bubbles', cursive;
+    font-size: 3rem;
+    border: none;
+    bottom: 30rem;
+    background-color: rgb(135, 131, 245, 0);
+    color: rgb(37, 37, 37);
+    letter-spacing: .35rem;
+    font-weight: 600;
+    position: relative;
+}
+
+.control-buttons {
+    display: flex;
+    flex-direction: row nowrap;
+    position: absolute;
+    top: 80rem;
+    
+}
+
+.control-buttons button {
+    width: 15rem;
+    height: 10rem;
+    background-color: rgb(121, 120, 132, 0 );
+    border: none;
+    
+}
+
+
+
+.left-png, .right-png, .straight-png { 
+    width: 10rem;
+    background-color: rgb(127, 178, 99);
+}
+
+.left-png:hover, .right-png:hover, .straight-png:hover {
+    
+    background-color: rgb(184, 214, 122);;
+}
+
+.left-png {
+    transform: rotate(-90deg);
+    
+    
+}
+
+.right-png {
+    transform: rotate(90deg);
+}
+
